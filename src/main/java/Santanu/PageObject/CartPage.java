@@ -28,6 +28,7 @@ public class CartPage extends AbstractComponent {
 	}
 	
 	public CheckOutPage goTocheckOut() throws InterruptedException {
+		//checkout file click
 		scrollToViewWebElement(checkoutFile);
 		checkoutFile.click();
 		return new CheckOutPage(driver);
