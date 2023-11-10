@@ -2,21 +2,21 @@
 <testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-05T22:20:49 IST" name="Suite" finished-at="2023-11-05T22:21:47 IST" duration-ms="58281">
+  <suite started-at="2023-11-11T03:04:44 IST" name="Suite" finished-at="2023-11-11T03:05:27 IST" duration-ms="43335">
     <groups>
       <group name="Purchase">
         <method signature="SubmitOrder.submitOrder(java.util.HashMap)[pri:0, instance:Santanu.SeleniumFrameWorkDesign.tests.SubmitOrder@38c6f217]" name="submitOrder" class="Santanu.SeleniumFrameWorkDesign.tests.SubmitOrder"/>
       </group> <!-- Purchase -->
     </groups>
-    <test started-at="2023-11-05T22:20:49 IST" name="Error Validations Test" finished-at="2023-11-05T22:20:49 IST" duration-ms="10">
+    <test started-at="2023-11-11T03:04:44 IST" name="Error Validations Test" finished-at="2023-11-11T03:04:44 IST" duration-ms="35">
     </test> <!-- Error Validations Test -->
-    <test started-at="2023-11-05T22:20:49 IST" name="Submit Order Test" finished-at="2023-11-05T22:21:47 IST" duration-ms="58281">
+    <test started-at="2023-11-11T03:04:44 IST" name="Submit Order Test" finished-at="2023-11-11T03:05:27 IST" duration-ms="43335">
       <class name="Santanu.SeleniumFrameWorkDesign.tests.SubmitOrder">
-        <test-method is-config="true" signature="launchApplications()[pri:0, instance:Santanu.SeleniumFrameWorkDesign.tests.SubmitOrder@38c6f217]" started-at="2023-11-05T22:20:49 IST" name="launchApplications" finished-at="2023-11-05T22:21:07 IST" duration-ms="18565" status="PASS">
+        <test-method is-config="true" signature="launchApplications()[pri:0, instance:Santanu.SeleniumFrameWorkDesign.tests.SubmitOrder@38c6f217]" started-at="2023-11-11T03:04:44 IST" name="launchApplications" finished-at="2023-11-11T03:04:50 IST" duration-ms="5974" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplications -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Santanu.SeleniumFrameWorkDesign.tests.SubmitOrder@38c6f217]" started-at="2023-11-05T22:21:07 IST" name="submitOrder" data-provider="getData" finished-at="2023-11-05T22:21:23 IST" duration-ms="16173" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Santanu.SeleniumFrameWorkDesign.tests.SubmitOrder@38c6f217]" started-at="2023-11-11T03:04:50 IST" name="submitOrder" data-provider="getData" finished-at="2023-11-11T03:05:07 IST" duration-ms="16495" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Santanu.SeleniumFrameWorkDesign.tests.SubmitOrder@38c6f217]" started-at="2023-11-05T22:21:23 IST" name="tearDown" finished-at="2023-11-05T22:21:24 IST" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Santanu.SeleniumFrameWorkDesign.tests.SubmitOrder@38c6f217]" started-at="2023-11-11T03:05:07 IST" name="tearDown" finished-at="2023-11-11T03:05:07 IST" duration-ms="404" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplications()[pri:0, instance:Santanu.SeleniumFrameWorkDesign.tests.SubmitOrder@38c6f217]" started-at="2023-11-05T22:21:24 IST" name="launchApplications" finished-at="2023-11-05T22:21:30 IST" duration-ms="5922" status="PASS">
+        <test-method is-config="true" signature="launchApplications()[pri:0, instance:Santanu.SeleniumFrameWorkDesign.tests.SubmitOrder@38c6f217]" started-at="2023-11-11T03:05:07 IST" name="launchApplications" finished-at="2023-11-11T03:05:11 IST" duration-ms="3339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplications -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Santanu.SeleniumFrameWorkDesign.tests.SubmitOrder@38c6f217]" started-at="2023-11-05T22:21:30 IST" name="submitOrder" data-provider="getData" finished-at="2023-11-05T22:21:47 IST" duration-ms="17039" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Santanu.SeleniumFrameWorkDesign.tests.SubmitOrder@38c6f217]" started-at="2023-11-11T03:05:11 IST" name="submitOrder" data-provider="getData" finished-at="2023-11-11T03:05:27 IST" duration-ms="16385" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Santanu.SeleniumFrameWorkDesign.tests.SubmitOrder@38c6f217]" started-at="2023-11-05T22:21:47 IST" name="tearDown" finished-at="2023-11-05T22:21:47 IST" duration-ms="194" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Santanu.SeleniumFrameWorkDesign.tests.SubmitOrder@38c6f217]" started-at="2023-11-11T03:05:27 IST" name="tearDown" finished-at="2023-11-11T03:05:27 IST" duration-ms="403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
