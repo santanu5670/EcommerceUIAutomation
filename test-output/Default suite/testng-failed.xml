@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Santanu.SeleniumFrameWorkDesign.tests.SubmitOrder">
+      <class name="Santanu.SeleniumFrameWorkDesign.tests.ErrorValidation">
         <methods>
-          <include name="orderHistoryTest"/>
           <include name="tearDown"/>
+          <include name="productPageErrorValidations"/>
           <include name="launchApplications"/>
-          <include name="submitOrder"/>
+          <include name="loginErrorValidations"/>
         </methods>
-      </class> <!-- Santanu.SeleniumFrameWorkDesign.tests.SubmitOrder -->
+      </class> <!-- Santanu.SeleniumFrameWorkDesign.tests.ErrorValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
