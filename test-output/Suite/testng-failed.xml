@@ -4,24 +4,11 @@
   <listeners>
     <listener class-name="Santanu.TestComponent.Listeners"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="Submit Order Test(failed)">
-    <classes>
-      <class name="Santanu.SeleniumFrameWorkDesign.tests.SubmitOrder">
-        <methods>
-          <include name="orderHistoryTest"/>
-          <include name="tearDown"/>
-          <include name="launchApplications"/>
-          <include name="submitOrder" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- Santanu.SeleniumFrameWorkDesign.tests.SubmitOrder -->
-    </classes>
-  </test> <!-- Submit Order Test(failed) -->
   <test thread-count="5" parallel="tests" name="Error Validations Test(failed)">
     <classes>
       <class name="Santanu.SeleniumFrameWorkDesign.tests.ErrorValidation">
         <methods>
           <include name="tearDown"/>
-          <include name="productPageErrorValidations"/>
           <include name="launchApplications"/>
           <include name="loginErrorValidations"/>
         </methods>
