@@ -8,7 +8,6 @@
           <include name="tearDown"/>
           <include name="productPageErrorValidations"/>
           <include name="launchApplications"/>
-          <include name="loginErrorValidations"/>
         </methods>
       </class> <!-- Santanu.SeleniumFrameWorkDesign.tests.ErrorValidation -->
     </classes>

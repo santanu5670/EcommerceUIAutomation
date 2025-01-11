@@ -25,7 +25,7 @@ public class SubmitOrder extends BaseTest {
 	public void submitOrder(HashMap<String, String> input) throws InterruptedException, IOException {
 		
 		ProductCatalogue productCatalogue = landingpage.loginApplication(input.get("email"), input.get("password"));
-		
+	
 		productCatalogue.addProductToCart(input.get("productName"));
 		
 		CartPage cartpage = productCatalogue.goToCartPage();
@@ -53,6 +53,7 @@ public class SubmitOrder extends BaseTest {
 	public Object[][] getData() throws IOException {
 		List<HashMap<String,String>> data = getJsonDataToMap(System.getProperty("user.dir")+"//src//test//java//Santanu//data//PurchaseOrder.json");
 		return new Object[][] {{data.get(0)},{data.get(1)}};
+//		return new Object[][] {{data.get(0)}};
 	}
 	
 	/*@DataProvider
