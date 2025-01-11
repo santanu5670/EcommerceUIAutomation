@@ -21,7 +21,7 @@ public class ErrorValidation extends BaseTest {
 	
 	@Test
 	public void productPageErrorValidations() throws InterruptedException, IOException {
-		String productName = "ZARA COAT 3";
+		String productName = "QWERTY";
 	
 		ProductCatalogue productCatalogue = landingpage.loginApplication("rohit123@gmail.com", "Rohit@12");
 		

@@ -38,7 +38,7 @@ public class BaseTest {
 		String browsername = prop.getProperty("browser");
 		
 		if(browsername.equalsIgnoreCase("chrome")) {
-			WebDriverManager.edgedriver().setup();
+			WebDriverManager.chromedriver().setup();
 //			WebDriverManager.chromedriver().driverVersion("116.0.5845.96").setup();
 			driver = new ChromeDriver();
 		}
